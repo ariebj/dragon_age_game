@@ -12,7 +12,7 @@ contract DragonAgeGame is ERC721, Ownable {
 
     uint256 COUNTER;
 
-    uint256 fee = 0.01 ether;
+    uint256 fee = 1 ether;
 
     struct Dragon {
         string name;

@@ -90,7 +90,7 @@ function App() {
             disabled={loading ? 1 : 0}
             onClick={(e) => {
               e.preventDefault();
-              mintDragon(blockchain.account, "Draco");
+              mintDragon(blockchain.account, "Unknown");
             }}
           >
             CREATE DRAGON
